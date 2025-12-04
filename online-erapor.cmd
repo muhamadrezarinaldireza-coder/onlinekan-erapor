@@ -24,7 +24,7 @@ if not defined HANDLER_SET (
 
 REM Start Cloudflare tunnel in the background
 echo Starting Cloudflare tunnel...
-start "Cloudflare Tunnel" cmd /c "cloudflared tunnel --url localhost:8534 > cf_tunnel.log 2>&1"
+start "Cloudflare Tunnel" cmd /c "cloudflared tunnel --url localhost:8535 > cf_tunnel.log 2>&1"
 
 REM Get the PID
 set "CF_TUNNEL_PID="
